@@ -1,0 +1,26 @@
+html,body{
+    height:100%;
+}
+
+ul#flex-container{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+
+ul li {
+    height:100px;
+    padding-top:45px;
+    color:#fff;
+    font-weight:bold;
+    text-align:center;
+    flex-grow: 1;
+}
+
+ul li:first-child {background: darkred; order :2}
+ul li:nth-child(2) {background: yellowgreen; order :5}
+ul li:nth-child(3) {background: orangered ; flex-grow:2 ; order : 4}
+ul li:nth-child(4) {background: navajowhite}
+ul li:nth-child(5) {background: darkgreen; flex-grow:5}
+ul li:last-child {background: purple}
