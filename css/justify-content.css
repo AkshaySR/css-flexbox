@@ -1,0 +1,42 @@
+/*Jusity Property*/
+
+ul#flex-container3{
+    list-style-type: none;
+    display : flex;
+    margin:0;
+    padding:0;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+}
+
+ul#flex-container4{
+    list-style-type: none;
+    display : flex;
+    margin:0;
+    padding:0;
+    justify-content: flex-start;
+}
+
+ul#flex-container5{
+    list-style-type: none;
+    display : flex;
+    margin:0;
+    padding:0;
+    justify-content: center;
+}
+
+ul#flex-container6{
+    list-style-type: none;
+    display : flex;
+    margin:0;
+    padding:0;
+    justify-content: space-between;
+}
+
+ul#flex-container7{
+    list-style-type: none;
+    display : flex;
+    margin:0;
+    padding:0;
+    justify-content: space-around;
+}
